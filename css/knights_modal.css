@@ -36,26 +36,30 @@
 }
 
 .modal_head{
-    padding-top:60px;
+    padding-top:30px;
 }
 
 .modal_h1{
-    color: #D97652;
+    color: #000000;
     padding-top: 24px;
     margin: 0;
+    font-family: 'MYArirang-Medium';
+    color: darkred;
 }
 .modal_text{
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
     padding-top: 12px;
-    padding-bottom:38px;
+    padding-bottom:15px;
+    font-family: 'TheJamsil5Bold';
+    color: white;
 }
 
 .modal_button{
     width: 183px;
     border-radius: 40px;
-    background-color: #D97652;
+    background-color: #E1002A;
     color: #FFFFFF;
     font-size: 16px;
     text-align: center;
