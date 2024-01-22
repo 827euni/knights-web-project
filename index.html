@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <title>SK knights</title>
+    <link rel = "stylesheet" type="text/css" href="css/knights_font.css">
     <link rel = "stylesheet" type="text/css" href="css/knights_body.css">
     <link rel = "stylesheet" type="text/css" href="css/knights_header.css">
     <link rel = "stylesheet" type="text/css" href="css/knights_advertisement.css">
@@ -17,10 +18,10 @@
 <body>
 <!--메인 컨텐츠, 모달 부분 따로 구현-->
 <section class="content">
-    <!--각 부분으로 이동하는 nav와 로고, 호두를 가장 임팩트있게 소개하는 문장으로 홈페이지 구현 시작-->
+    <!--각 부분으로 이동하는 nav와 로고, SK나이츠를 가장 임팩트있게 소개하는 문장으로 홈페이지 구현 시작-->
     <header class="header">
         <div class = "header_nav">
-            <img src="media/knights_logo.png" alt="호두로고" width="130px" height="61px" class="logo_header">
+            <img src="media/knights_logo.png" alt="SK나이츠 로고" width="130px" height="61px" class="logo_header">
 
             <nav class="find">
                 <div class="find_part_of_text">
@@ -28,20 +29,17 @@
                     <a href="https://knights.kbl.or.kr/intro/history" class="find_text">About</a>
                     <a href="https://www.kbl.or.kr/ticket/reservation" class="find_text">Support</a>
                 </div>
-                <a href="" class="find_download" download="">Download</a>
+                <a href="media/sk-emblem.png" class="find_download" download="sk_emblem.png">Download</a>
             </nav>
         </div>
 
         <div class = "header_main">
             <div class="header_text">
-                <h1 class="header_h1">Lorem Ipsum is simply
-                    dummy text of the printing and</h1>
-                <p class="header_contents">Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.<br>
-                    Lorem Ipsum has been the industry's standard dummy text
-                    ever since the 1500s, when an unknown</p>
-                <p class="header_download">
-                    <a href="" class="header_download" download="">Download</a>
+                <h1 class="header_h1">KBL 최초 트리플 크라운 달성, SK나이츠</h1>
+                <p class="header_contents">
+                    서울을 연고지로 하는, 홈구장은 잠실학생체육관인 한국 프로농구단. <br> 현재 SK스포츠 산하의 스포츠단으로 KBL 유일의 트레블, 또는 트리플 크라운 타이틀을 달성한 구단입니다. 트레블이란 컵, 정규 시즌, 챔피언 결정전을 모두 우승한 것을 의미합니다. </p>
+                <p class="header_win">
+                    <a href="media/sk-emblem.png" class="header_win" download="sk_emblem.png">ALWAYS WIN!</a>
                 </p>
             </div>
 
@@ -51,39 +49,40 @@
         </div>
     </header>
 
-    <!-- main 부분과 header를 이어주는 부분으로 호두의 이미지 하나를 보여주며 소개함-->
+    <!-- main 부분과 header를 이어주는 부분으로 우승트로피를 보여주며 소개함-->
     <article class="advertisement">
-        <img src="media/KGC.jpg" class="article_kgc" alt="KGC전 우승트로피" width = "660px" height="439px">
+        <img src="media/victory.jpg" class="article_victory" alt="KGC전 우승" width = "660px" height="439px">
         <div class="advertisement_text">
-            <h3 class="advertise_h3">Lorem Ipsum is simply
-                dummy text of the printing and dummy text</h3>
-            <p class="ad_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+            <h3 class="advertise_h3">2021-2022 정관장 프로농구 KBL 통합우승</h3>
+            <p class="ad_text">
+                요즘 승패에 되게 연연하고 있어서, 우승이라는 단어를 보면 기분이 좋더라고요.<br>그리고 저희 선수들이 스타팅멤버 중에 부상자가 너무 많아서, 얼른 이겨냈으면 하는 마음도 있어서 넣어봤어요.
+            </p>
         </div>
     </article>
 
     <!--main부분으로 끊임없이 외부 사이트를 이용하여 사진을 불러오는 갤러리 기능을 구현함-->
     <main class="main">
         <section class="main_title">
-            <h2 class="main_h2">dummy text of the printing and dummy</h2>
-            <p class="main_text">Lorem Ipsum is simply <span class="highlight">dummy text</span> of the printing and typesetting industry.<br>
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</p>
+            <h2 class="main_h2">2023-2024 정관장 프로농구</h2>
+            <p class="main_text">2024년 1월 22일 기준 <span class="highlight">팀 순위 2위</span>로 승률은 0.676입니다.<br>
+                1위인 원주 DB와는 현재 승차 4개가 차이나기는 하는데, 요즘 승패패승패라서.<br>... 1등도 잡을 수 있을 것이라 생각합니다. </p>
         </section>
 
         <div class="gallery">
             <article class="gallery_part">
-                <img src="media/0118_hyundae.jpg" class="gallery_basketball" alt="고양이사진">
-                <img src="media/0120_DB.jpg" class="gallery_basketball" alt="고양이사진">
-                <img src="media/1224_lg.png" class="gallery_basketball" alt="고양이사진">
+                <img src="media/0118_hyundae.jpg" class="gallery_basketball" alt="1월 18일 VS 현대">
+                <img src="media/0120_DB.jpg" class="gallery_basketball" alt="1월 20일 VS DB">
+                <img src="media/1224_lg.png" class="gallery_basketball" alt="12월 24일 VS LG">
             </article>
             <article class="gallery_part">
-                <img src="media/1207_hyundae.jpg" class="gallery_basketball" alt="고양이사진">
-                <img src="media/1224_DB.jpg" class="gallery_basketball" alt="고양이사진">
-                <img src="media/1230_anyang.jpg" class="gallery_basketball" alt="고양이사진">
+                <img src="media/1207_hyundae.jpg" class="gallery_basketball" alt="12월 7일 VS 현대">
+                <img src="media/1224_DB.jpg" class="gallery_basketball" alt="12월 24일 VS DB">
+                <img src="media/1230_anyang.jpg" class="gallery_basketball" alt="12월 30일 VS 안양">
             </article>
         </div>
 
         <article class="main_button">
-            <h3 class="main_h3">Continue exploring HODU</h3>
+            <h3 class="main_h3">Continue exploring IMAGE</h3>
             <button class="show_more" onclick="startScroll()">show more</button>
             <ul class="image-list"></ul>
         </article>
@@ -102,9 +101,9 @@
     <article class = "subscribe">
         <div class="click_subscribe">
             <div class="click_left">
-                <h3 class="subscribe_h3">Subscribe to our Blog post</h3>
-                <p class="subscribe_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
-                    Lorem Ipsum has been the industry's standard dummy text </p>
+                <h3 class="subscribe_h3">이메일을 적어주세요.</h3>
+                <p class="subscribe_text">그러면 제가 매 주 시작할 때마다 SK나이츠 경기 목록을 보내드립니다.<br>
+                    물론 농구 시즌이 아닐 때는 보내드리지 않아요. </p>
             </div>
             <form class = "form_submit">
                 <div class="click_right">
@@ -132,28 +131,32 @@
 
     <!--호두 로고와 함께 호두를 볼 수 있는 링크들로 이동하는 것을 구현함-->
     <footer class="footer">
-        <img src="media/knights_logo.png" alt="SK 나이츠 로고" width="226px" height="106px" alt = "SK나이츠 로고">
-        <nav class="icons">
-            <a href="https://twitter.com/sk_knights"><img src="media/icon-blog.png" alt = "블로그로 링크된 버튼"></a>
-            <a href="https://www.instagram.com/sk_knights_official"><img src="media/icon-insta.png" alt = "인스타그램으로 링크된 버튼"></a>
-            <a href="https://ko-kr.facebook.com/skknights"><img src="media/icon-facebook.png" alt = "페이스북으로 링크된 버튼"></a>
-            <a href="https://www.youtube.com/user/skknightsteam"><img src="media/icon-youtube.png" alt = "유튜브로 링크된 버튼"></a>
-        </nav>
+        <div>
+            <img src="media/knights_logo.png" alt="SK 나이츠 로고" width="226px" height="106px" alt = "SK나이츠 로고">
+            <nav class="icons">
+                <a href="https://twitter.com/sk_knights"><img src="media/icon-blog.png" alt = "블로그로 링크된 버튼"></a>
+                <a href="https://www.instagram.com/sk_knights_official"><img src="media/icon-insta.png" alt = "인스타그램으로 링크된 버튼"></a>
+                <a href="https://ko-kr.facebook.com/skknights"><img src="media/icon-facebook.png" alt = "페이스북으로 링크된 버튼"></a>
+                <a href="https://www.youtube.com/user/skknightsteam"><img src="media/icon-youtube.png" alt = "유튜브로 링크된 버튼"></a>
+            </nav>
+            </div>
+        <p>사용한 로고, 사진, 음악 등 모든 것에 대한 출처는 SK나이츠와 KBL에 있습니다.
+        </p>
     </footer>
 </section>
-<article class="modal" style='background-image: url("/media/frame.png");'>
+<article class="modal" style='background-image: url("/media/frame.jpg");'>
     <!--class subscribe에서 버튼을 누를 경우 modal 팝업이 뜨는 부분을 구현함-->
     <div class="modal_all">
         <div class="modal_head">
-            <img src="media/modal_cat.png" width="110px" height="112px" class="modal_cat" alt = "팝업 상단에 나오는 고양이의 머리">
+            <img src="media/21-22_logo.png" width="189px" height="165px" alt = "팝업 상단에 나오는 21-22시즌 챔피언 SK나이츠 로고">
         </div>
         <div class="modal_body">
-            <h1 class="modal_h1">Thank you!</h1>
+            <h1 class="modal_h1">SK knights</h1>
             <div class="modal_text">
-                Lorem Ipsum is simply dummy text of the printing industry.
+                정말 재미있겠다^^ 당장 농구 하러 가야겠는걸.
             </div>
         </div>
-        <button class="modal_button">OK! I Love HODU</button>
+        <button class="modal_button">ALWAYS WIN!</button>
     </div>
 </article>
 
@@ -161,6 +164,10 @@
     <img src="media/scroll-top-btn-off.png" class="to_top" alt = "페이지 가장 상단으로 이동하는 버튼">
     <img src="media/scroll-bottom-btn-off.png" class="to_bottom" alt = "페이지 가장 상단으로 이동하는 버튼">
 </article>
+
+<audio src="media/become_one_SK.wav" autoplay loop>
+    이 브라우저는 audio 요소를 지원하지 않습니다.
+</audio>
 
 <script type="text/javascript" src="js/knights_modal.js"></script>
 <script type="text/javascript" src="js/knights_scrollButton.js"><</script>
