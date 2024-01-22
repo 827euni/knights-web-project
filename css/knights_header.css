@@ -1,6 +1,6 @@
 .header{
     flex-direction: column;
-    background-color: #F2E9D8;
+    background-color: #FFC72C;
     color: black;
 }
 
@@ -29,6 +29,7 @@
     justify-content: space-between;
     gap: 30px;
     padding-bottom: 41px;
+    color: white;
 }
 
 .find_text, .header_contents, .ad_text, .main_text {
@@ -38,7 +39,7 @@
     line-height: 20px;
     text-align: left;
     letter-spacing: 0;
-    color: #000000
+    color: #FFFFFF
 }
 .find_text {
     overflow: hidden;
@@ -48,7 +49,7 @@
 .find_download, .header_download, .show_more{
     width: 140px;
     border-radius: 40px;
-    background-color: #D97652;
+    background-color: #E1002A;
     font-family: 'Pretendard-Regular';
     color: #FFFFFF;
     font-size: 16px;
@@ -108,6 +109,11 @@
     text-align: center;
 }
 
-.header_cat {
-    margin-top:32px;
+.header_knights {
+    align-items: center;
+}
+
+.header_image {
+    display: flex;
+    align-items: center;
 }
