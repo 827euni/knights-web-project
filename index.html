@@ -2,9 +2,169 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>HODU</title>
+    <link rel = "stylesheet" type="text/css" href="css/hodu_body.css">
+    <link rel = "stylesheet" type="text/css" href="css/hodu_header.css">
+    <link rel = "stylesheet" type="text/css" href="css/hodu_advertisement.css">
+    <link rel = "stylesheet" type="text/css" href="css/hodu_main.css">
+    <link rel = "stylesheet" type="text/css" href="css/hodu_map.css">
+    <link rel = "stylesheet" type="text/css" href="css/hodu_subscribe.css">
+    <link rel = "stylesheet" type="text/css" href="css/hodu_bottom_background.css">
+    <link rel = "stylesheet" type="text/css" href="css/hodu_footer.css">
+    <link rel = "stylesheet" type="text/css" href="css/hodu_modal.css">
+    <link rel = "stylesheet" type="text/css" href="css/hodu_scroll.css">
 </head>
 <body>
+<!--메인 컨텐츠, 모달 부분 따로 구현-->
+<section class="content">
+    <!--각 부분으로 이동하는 nav와 로고, 호두를 가장 임팩트있게 소개하는 문장으로 홈페이지 구현 시작-->
+    <header class="header">
+        <div class = "header_nav">
+            <img src="media/logo.png" alt="호두로고" width="130px" height="40px" class="logo_header">
 
+            <nav class="find">
+                <div class="find_part_of_text">
+                    <a href="" class="find_text">Home</a>
+                    <a href="" class="find_text">About</a>
+                    <a href="" class="find_text">Support</a>
+                </div>
+                <a href="" class="find_download" download="">Download</a>
+            </nav>
+        </div>
+
+        <div class = "header_main">
+            <div class="header_text">
+                <h1 class="header_h1">Lorem Ipsum is simply
+                    dummy text of the printing and</h1>
+                <p class="header_contents">Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.<br>
+                    Lorem Ipsum has been the industry's standard dummy text
+                    ever since the 1500s, when an unknown</p>
+                <p class="header_download">
+                    <a href="" class="header_download" download="">Download</a>
+                </p>
+            </div>
+
+            <div class="header_image">
+                <img src="media/img_cat.png" alt="박스를 쓴 고양이" class="header_cat" width="415px" height="766px">
+            </div>
+        </div>
+    </header>
+
+    <!-- main 부분과 header를 이어주는 부분으로 호두의 이미지 하나를 보여주며 소개함-->
+    <article class="advertisement">
+        <img src="media/article_cat.png" class="article_cat" alt="누워있는 고양이 사진" width = "660px" height="390px">
+        <div class="advertisement_text">
+            <h3 class="advertise_h3">Lorem Ipsum is simply
+                dummy text of the printing and dummy text</h3>
+            <p class="ad_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        </div>
+    </article>
+
+    <!--main부분으로 끊임없이 외부 사이트를 이용하여 사진을 불러오는 갤러리 기능을 구현함-->
+    <main class="main">
+        <section class="main_title">
+            <h2 class="main_h2">dummy text of the printing and dummy</h2>
+            <p class="main_text">Lorem Ipsum is simply <span class="highlight">dummy text</span> of the printing and typesetting industry.<br>
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</p>
+        </section>
+
+        <div class="gallery">
+            <article class="gallery_part">
+                <img src="media/img_1.png" class="gallery_cat" alt="고양이사진">
+                <img src="media/img_2.png" class="gallery_cat" alt="고양이사진">
+                <img src="media/img_3.png" class="gallery_cat" alt="고양이사진">
+            </article>
+            <article class="gallery_part">
+                <img src="media/img_4.png" class="gallery_cat" alt="고양이사진">
+                <img src="media/img_5.png" class="gallery_cat" alt="고양이사진">
+                <img src="media/img_6.png" class="gallery_cat" alt="고양이사진">
+            </article>
+        </div>
+
+        <article class="main_button">
+            <h3 class="main_h3">Continue exploring HODU</h3>
+            <button class="show_more" onclick="startScroll()">show more</button>
+            <ul class="image-list"></ul>
+        </article>
+        <div class="line"></div>
+    </main>
+
+    <!-- 카카오맵 api를 사용해서 현 위치를 나타내는 지도를 나타내는 구역을 구현함-->
+    <article class="map">
+        <h2 class="map_h2">Where you’ll be</h2>
+        <p class="map_text">330, Cheomdan-ro, Jeju-si, Jeju-do, Republic of Korea</p>
+        <div class="map_kakao" style="width:100%;height:520px;"></div>
+        <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=fd787588fb748e318429feda094816ef"></script>
+    </article>
+
+    <!-- subscribe 이메일을 받아 서버로 전송하는 기능 구현함-->
+    <article class = "subscribe">
+        <div class="click_subscribe">
+            <div class="click_left">
+                <h3 class="subscribe_h3">Subscribe to our Blog post</h3>
+                <p class="subscribe_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+                    Lorem Ipsum has been the industry's standard dummy text </p>
+            </div>
+            <form class = "form_submit">
+                <div class="click_right">
+                    <div class="mail">
+                        <img src="media/mail.png" class="mail_img" width="24px" height="24px">
+                        <input type="email" placeholder="Enter your e-mail address">
+                    </div>
+                    <div>
+                        <button type = "submit" class="button_subscribe">Subscribe</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </article>
+
+    <!--가장 하단의 배경화면을 나타내는 태그로, 가장 상단으로 이동하는 스크롤 버튼도 함께 구현함-->
+    <article class = bottom_background>
+        <div class="background_cat">
+            <img src="media/article_kitty.png" class="background_kitty" alt = "하단에 배경화면으로 들어가는 고양이 사진">
+        </div>
+        <div class="scroll_button">
+            <img src="media/scroll-top-btn-off.png" class="button_scroll" alt = "페이지 가장 상단으로 이동하는 버튼">
+        </div>
+    </article>
+
+    <!--호두 로고와 함께 호두를 볼 수 있는 링크들로 이동하는 것을 구현함-->
+    <footer class="footer">
+        <img src="media/logo.png" alt="호두로고" width="226px" height="70px" alt = "호두 로고">
+        <nav class="icons">
+            <a href=""><img src="media/icon-blog.png" alt = "블로그로 링크된 버튼"></a>
+            <a href=""><img src="media/icon-insta.png" alt = "인스타그램으로 링크된 버튼"></a>
+            <a href=""><img src="media/icon-facebook.png" alt = "페이스북으로 링크된 버튼"></a>
+            <a href=""><img src="media/icon-youtube.png" alt = "유튜브로 링크된 버튼"></a>
+        </nav>
+    </footer>
+</section>
+<article class="modal" style='background-image: url("/media/frame.png");'>
+    <!--class subscribe에서 버튼을 누를 경우 modal 팝업이 뜨는 부분을 구현함-->
+    <div class="modal_all">
+        <div class="modal_head">
+            <img src="media/modal_cat.png" width="110px" height="112px" class="modal_cat" alt = "팝업 상단에 나오는 고양이의 머리">
+        </div>
+        <div class="modal_body">
+            <h1 class="modal_h1">Thank you!</h1>
+            <div class="modal_text">
+                Lorem Ipsum is simply dummy text of the printing industry.
+            </div>
+        </div>
+        <button class="modal_button">OK! I Love HODU</button>
+    </div>
+</article>
+
+<article class="scroll">
+    <img src="media/scroll-top-btn-off.png" class="to_top" alt = "페이지 가장 상단으로 이동하는 버튼">
+    <img src="media/scroll-bottom-btn-off.png" class="to_bottom" alt = "페이지 가장 상단으로 이동하는 버튼">
+</article>
+
+<script type="text/javascript" src="js/hodu_modal.js"></script>
+<script type="text/javascript" src="js/hodu_scrollButton.js"><</script>
+<script type="text/javascript" src="js/hodu_scroll.js"></script>
+<script type="text/javascript" src="js/hodu_map.js"></script>
 </body>
 </html>

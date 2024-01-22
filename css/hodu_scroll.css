@@ -1,0 +1,10 @@
+.scroll {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 10%;
+    right: 2%;
+    gap : 5px;
+    width : 35px;
+    height: 35px;
+}

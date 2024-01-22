@@ -1,0 +1,113 @@
+.header{
+    flex-direction: column;
+    background-color: #F2E9D8;
+    color: black;
+}
+
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_header, .find {
+    display: inline-block;
+}
+
+.logo_header{
+    padding-top: 31px;
+}
+
+.find {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.find_part_of_text{
+    padding-top:41px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-bottom: 41px;
+}
+
+.find_text, .header_contents, .ad_text, .main_text {
+    font-family: 'Pretendard-Regular';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    letter-spacing: 0;
+    color: #000000
+}
+.find_text {
+    overflow: hidden;
+    text-decoration-line: none;
+}
+
+.find_download, .header_download, .show_more{
+    width: 140px;
+    border-radius: 40px;
+    background-color: #D97652;
+    font-family: 'Pretendard-Regular';
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    justify-content: center;
+    text-decoration-line: none;
+}
+.find_download{
+
+    margin-top: 26px;
+    margin-bottom: 26px;
+    margin-left:49px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+/* 헤더 메인부분 */
+
+.header_main{
+    height : 798px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_text, .header_image{
+    display: inline-block;
+
+}
+.header_h1{
+    font-family: 'Pretendard-Regular';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0;
+    text-align: left;
+    width:695px;
+    height: 120px;
+    margin-top: 200px;
+}
+.header_text{
+    width:695px;
+}
+
+.header_contents {
+    width: 420px;
+    margin-bottom: 40px;
+}
+
+.header_download{
+    width: 140px;
+    margin-top: 0;
+    margin-bottom: 26px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.header_cat {
+    margin-top:32px;
+}

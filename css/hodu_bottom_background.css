@@ -1,0 +1,27 @@
+.bottom_background{
+    height:441px;
+}
+.background_cat{
+    height: 340px;
+    padding-top: 101px
+}
+
+.background_kitty{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -50;
+}
+
+.scroll_button{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 24px;
+    transform: translate(0,-69px);
+}
+
+.button_scroll{
+    padding-bottom: 45px;
+}

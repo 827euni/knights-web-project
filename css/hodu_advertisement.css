@@ -1,0 +1,31 @@
+.advertisement{
+    display: flex;
+    justify-content: space-between;
+}
+
+.article_cat{
+    margin-top:80px;
+    box-shadow: 10px 10px 30px 0px #00000040;
+    border-radius: 30px;
+
+}
+
+.advertise_h3{
+    width: 510px;
+    height: 135px;
+    font-family: 'Pretendard-Regular';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0;
+    text-align: left;
+    padding-top:172px;
+    margin:0;
+
+}
+
+.ad_text {
+    width: 510px;
+    height: 40px;
+    padding-top: 30px;
+}
