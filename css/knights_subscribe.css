@@ -8,7 +8,7 @@
     flex-direction: row;
     height: 200px;
     border-radius: 30px;
-    background-color: #263140;
+    background-color: #F28F00;
     color : #FFFFFF;
     position: absolute;
 }
@@ -22,11 +22,12 @@
 .subscribe_h3{
     font-family: 'Pretendard-Regular';
     font-size: 36px;
-    font-weight: 700;
+    font-weight: 1000;
     line-height: 45px;
     letter-spacing: 0;
     text-align: left;
     margin: 0;
+    color: #000000;
 }
 
 .subscribe_text{
@@ -79,7 +80,7 @@
     width: 130px;
     height: 50px;
     border-radius: 40px;
-    background-color: #D97652;
+    background-color: #E1002A;
     color: #FFFFFF;
     font-family: 'Pretendard-Regular';
     font-size: 16px;

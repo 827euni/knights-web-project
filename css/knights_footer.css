@@ -1,7 +1,9 @@
-.footer{
+.footer div{
     display: flex;
     justify-content: space-between;
-    margin-top:45px;
+    margin-top: 0;
+    padding-top: 36px;
+    padding-bottom: 36px;
 }
 
 .icons{
@@ -9,11 +11,19 @@
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    padding-bottom: 99px;
     padding-top: 32px;
 }
 
 .icons a img{
     width: 42px;
     height: 42px;
+}
+
+.footer p{
+    font-family: 'Pretendard-Regular';
+    color: gray;
+    font-size: 12px;
+    font-weight: 100;
+    text-align: center;
+    justify-content: center;
 }

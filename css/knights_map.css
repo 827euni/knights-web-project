@@ -1,5 +1,5 @@
 .map_h2{
-    font-family: 'Pretendard-Regular';
+    font-family: 'HakgyoansimGaeulsopungB';
     font-size: 36px;
     font-weight: 700;
     line-height: 45px;
@@ -8,6 +8,7 @@
     padding-top: 68px;
     padding-bottom: 20px;
     margin:0;
+    color: #EE7504;
 }
 
 .map_text{

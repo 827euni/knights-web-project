@@ -8,13 +8,13 @@
     padding-top: 120px;
     padding-bottom: 40px;
     margin : 0;
-    font-family: 'Pretendard-Regular';
-    font-size: 48px;
+    font-family: 'HakgyoansimGaeulsopungB';
+    font-size: 72px;
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 0;
     text-align: center;
-    color: #D97652;
+    color: #E5251E;
 }
 
 .main_text{
@@ -24,16 +24,18 @@
     height: 42px;
     align-items: center;
     padding-bottom: 88px;
+    color: #000000;
+    font-family: 'S-CoreDream-3Light';
 }
 
 .highlight{
-    font-family: 'Pretendard-Regular';
+    font-family: 'S-CoreDream-3Light';
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
     letter-spacing: 0;
     text-align: center;
-    color : #D97652;
+    color: #E62D1B;
 }
 
 .gallery{
@@ -84,12 +86,13 @@
 }
 
 .main_h3{
-    font-family: 'Pretendard-Regular';
+    font-family: 'HakgyoansimGaeulsopungB';
     font-size: 24px;
     font-weight: 700;
     line-height: 30px;
     letter-spacing: 0;
     text-align: center;
+    color : #EA4E10
 }
 
 .show_more{
@@ -98,6 +101,7 @@
     padding-bottom: 15px;
     border: 0;
     margin-bottom: 80px;
+    background-color: #EB5A0D;
 }
 
 .line{
