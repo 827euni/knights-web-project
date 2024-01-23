@@ -8,3 +8,9 @@
     width : 35px;
     height: 35px;
 }
+
+.music {
+    top: 5%;
+    right: 2%;
+    position: fixed;
+}
