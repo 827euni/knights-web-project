@@ -102,9 +102,14 @@
     transition-duration: .5s;
 }
 
-.header_h1 span:hover{
+.header_highlight:hover{
     background-color: #E1002A;
     transition-duration: .7s;
+}
+
+.knights:hover {
+    background-color: white;
+    color: #E1002A;
 }
 
 .header_text{
