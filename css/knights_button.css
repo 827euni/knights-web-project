@@ -12,5 +12,5 @@
 .music {
     top: 5%;
     right: 2%;
-    position: fixed;
+    position: absolute;
 }
