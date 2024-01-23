@@ -38,6 +38,11 @@
     color: #E62D1B;
 }
 
+.highlight:hover{
+    background-color: #000000;
+    transition-duration: .5s;
+}
+
 .gallery{
     display: flex;
     flex-direction: column;
@@ -54,6 +59,7 @@
     width: 378px;
     height: 378px;
     overflow: hidden;
+    transition-duration: .5s;
 }
 
 .gallery_basketball:hover, .image-list img:hover{
@@ -76,6 +82,7 @@
     margin-bottom: 72px;
     border-radius: 30px;
     box-shadow: 10px 10px 30px 0px #00000040;
+    transition-duration: .5s;
 }
 
 .main_button{

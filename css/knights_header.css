@@ -41,11 +41,17 @@
     letter-spacing: 0;
     color: #FFFFFF
 }
+
 .find_text {
     overflow: hidden;
     text-decoration-line: none;
+    transition-duration: .5s;
 }
 
+.find_text:hover {
+    background-color: black;
+    transition-duration: .5s;
+}
 .find_download, .header_win, .show_more{
     width: 140px;
     border-radius: 40px;
@@ -91,13 +97,31 @@
     height: 120px;
     margin-top: 200px;
 }
+
+.header_h1 span {
+    transition-duration: .5s;
+}
+
+.header_h1 span:hover{
+    background-color: #E1002A;
+    transition-duration: .7s;
+}
+
 .header_text{
     width:695px;
 }
 
 .header_contents {
-    width: 420px;
+    width: 480px;
     margin-bottom: 40px;
+}
+
+.header_contents span {
+    transition-duration: .5s;
+}
+.header_contents span:hover {
+    background-color: black;
+    transition-duration: .5s;
 }
 
 .header_win{
@@ -116,4 +140,18 @@
 .header_image {
     display: flex;
     align-items: center;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.header_image:hover{
+    animation: rotate 2s infinite;
 }
