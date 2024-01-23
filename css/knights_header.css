@@ -107,6 +107,9 @@
     transition-duration: .7s;
 }
 
+.knights {
+    font-size: 60px;
+}
 .knights:hover {
     background-color: white;
     color: #E1002A;
